@@ -1,13 +1,24 @@
+# aero-postprocess dependencies
+#
+# Install:  pip install -r requirements.txt
+
+# Core scientific stack
+numpy==2.4.4
+scipy==1.17.1
+pandas==3.0.2
+
+# Plotting
+matplotlib==3.10.8
+
+# Matplotlib dependencies (auto-installed)
 contourpy==1.3.3
 cycler==0.12.1
 fonttools==4.62.1
 kiwisolver==1.5.0
-matplotlib==3.10.8
-numpy==2.4.4
 packaging==26.0
-pandas==3.0.2
 pillow==12.1.1
 pyparsing==3.3.2
+
+# Pandas dependencies (auto-installed)
 python-dateutil==2.9.0.post0
-scipy==1.17.1
 six==1.17.0
